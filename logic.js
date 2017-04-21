@@ -14,4 +14,4 @@ var graduationDate = new Date("Jan 5, 2018 15:37:25").getTime();
 		clearInterval(x);
 		document.getElementById("countDown").innerHTML = "Graduated! Hurray.";
 		}
-		}, 1000);
+	}, 1000);
