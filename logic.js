@@ -1,5 +1,6 @@
 var graduationDate = new Date("Jan 5, 2018 15:37:25").getTime();
 	var x = setInterval(function() {
+		var now = new Date().getTime();
 		var timeLeft = graduationDate - now;
 
 		var days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
