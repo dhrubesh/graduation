@@ -1,4 +1,4 @@
-var graduationDate = new Date("Jan 5, 2018 15:37:25").getTime();
+var graduationDate = new Date("June 1, 2019 12:00:00").getTime();
 	var x = setInterval(function() {
 		var now = new Date().getTime();
 		console.log(now)
@@ -17,3 +17,10 @@ var graduationDate = new Date("Jan 5, 2018 15:37:25").getTime();
 		document.getElementById("countDown").innerHTML = "Graduated! Hurray.";
 		}
 	}, 1000);
+
+
+(function blah() {
+
+alert("Hello , thanks for showing up. ");
+
+})()
