@@ -21,6 +21,6 @@ var graduationDate = new Date("June 1, 2019 12:00:00").getTime();
 
 (function blah() {
 
-alert("Hello , thanks for showing up. "+);
+alert("Hello , thanks for showing up. ");
 
 })()
